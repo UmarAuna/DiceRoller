@@ -20,7 +20,7 @@ public class MainJava extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_java);
 
-      /*  gotoActivtyB = findViewById(R.id.activity_a);
+        gotoActivtyB = findViewById(R.id.activity_a);
         gotoActivtyB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,11 +30,10 @@ public class MainJava extends AppCompatActivity {
                 //startActivity(new Intent(MainJava.this, ActvityB.class));
             }
         });
-*/
     }
-    public void Activity(View view){
+/*    public void Activity(View view){
         startActivity(new Intent(MainJava.this, ActvityB.class));
         finish();
-    }
+    }*/
 
 }
