@@ -19,7 +19,7 @@ Button goback;
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(ActvityB.this, MainJava.class));
-                finish();
+                //finish();
             }
         });
     }
